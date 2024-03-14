@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+}
+
+main{
+    margin-top: 20px;
+    border: 1px solid #505050;
+}
+
+.row{
+    display: flex;
+}
+
+.rock, .water, .ship, .treasure {
+    display: block;
+    width: 4.5vw;
+    height: 4.5vh;
+    color: transparent;
+}
+
+.rock{
+    background-image: url(./imgs/rock.png);
+
+}
+
+.water{
+
+    background-image: url(./imgs/water.png);
+}
+
+.ship{
+    
+    background-image: url(./imgs/Screenshot\ 2024-03-14\ at\ 14.45.18.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.treasure{
+
+    background-image: url(./imgs/Screenshot\ 2024-03-14\ at\ 14.47.43.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instractions{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    max-height: 25vh;
+    flex-wrap: wrap;
+}
+.instractions p{
+
+    font-size: 1rem;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.img{
+    width: 25vw;
+    height: 25vh;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
